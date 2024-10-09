@@ -1,0 +1,54 @@
+html,
+body {
+    background-color: #fcfcfc;
+}
+
+.btn-primary {
+    background-color: #f36805;
+}
+
+.btn-outline-primary {
+    border-color: transparent;
+    color: #242e30;
+    background-color: #efede9;
+}
+
+.btn-check {
+    height: 28px;
+}
+
+.btn-outline-light {
+    border-color: transparent;
+    background-color: #efede9;
+    color: #242e30;
+    border-radius: 20px;
+    width: 50%;
+    height: 28px;
+}
+
+#deliveryOrPickUpContainer {
+    padding: 2px;
+    background-color: #efede9;
+    border-radius: 20px;
+    width: 270px;
+    height: 32px;
+}
+
+.search-control {
+    margin: 0;
+    border-color: transparent;
+    background-color: #efede9;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    height: 32px;
+    max-width: 120px;
+}
+
+.bi-list {
+    src: url(../Ressources/Images/Icons/bi-list.svg);
+}
+
+.ci-bicycle {
+    src: url(../Ressources/Images/Icons/bicycle.svg);
+}

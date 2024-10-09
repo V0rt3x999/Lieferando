@@ -1,0 +1,44 @@
+.navbar-background {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#location-container {
+    padding-left: 22px;
+    background-color: #efede9;
+    height: 32px;
+}
+
+#cousine-card-bg {
+    background-color: #000;
+    width: 120px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#cousine-card-container {
+    margin-right: 20px;
+}
+
+.image-list-wrapper {
+    height: 300px;
+    /* adjust as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+.image-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.3s ease;
+}
+
+.image-list li {
+    margin-bottom: 10px;
+}
+
+.image-list img {
+    width: 100%;
+    height: auto;
+}
