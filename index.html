@@ -155,16 +155,192 @@
 
     <div class="container m-0" id="content-container">
         <div class="d-flex">
-            <div class="col">
+            <div class="h-100 w-25" id="filter-container">
+                <h3>11 Restaurants</h3>
+                <div class="d-flex">
+                    <div class="col">
+                        <h3>Jetzt geöffnet</h3>
+                    </div>
+                    <div class="col">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="col">
+                        <h3>Kostenlose Lieferung</h3>
+                    </div>
+                    <div class="col">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        </div>
+                    </div>
+                </div>
 
+                <div id="minimum-order-amount-container">
+                    <div class="d-flex">
+                        <h3>Mindestbestellbetrag</h3>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Alle anzeigen (11)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            10,00 € oder weniger (4)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault3">
+                            15,00 € oder weniger (7)
+                        </label>
+                    </div>
+                </div>
+                <div id="rating-container">
+                    <h3>Bewertung</h3>
+                    <div class="d-flex">
+
+                    </div>
+                </div>
+                <div id="dicount-container">
+                    <div class="d-flex">
+                        <h3>Angebote und Rabatte</h3>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Angebote (9)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                        <label class="form-check-label" for="flexCheckDefault1">
+                            Stempelkarten (15)
+                        </label>
+                    </div>
+                </div>
             </div>
-            <div class="col">
 
+            <div class="h-100 w-75">
+                <div class="d-flex">
+                    <input type="text" placeholder="Restaurants und Gerichte" />
+                    <p>Sortieren nach</p>
+                    <select>
+                        <option>Größte Übereinstimmung</option>
+                        <option>Bewertung</option>
+                        <option>Entfernung</option>
+                        <option>Ungefähre Lieferzeit</option>
+                        <option>Am beliebtesten</option>
+                        <option>Mindestbestellwert</option>
+                        <option>Lieferkosten</option>
+                        <option>Produktpreis</option>
+                        <option>Alphabetisch</option>
+                    </select>
+                    <button class="btn btn-primary"></button>
+                </div>
+                <h2>Bestelle von 11 Restaurants</h2>
+                <a href="#">So werden diese Ergebnisse sortiert</a>
+                <h3>Eröffnung demnächst</h3>
+                <div id="restaurant-options-container">
+                    <div class="restaurant-card mb-3">
+                        <div class="d-flex">
+                            <img class="restaurant-card-image" src="Ressources/Images/Los_Pollos.png" />
+                            <div>
+                                <h4>Los Polos Hermanos</h4>
+                                <div class="d-flex">
+                                    <p class="me-1">4,5 (200+)</p>
+                                    <p class="me-1">Burger, Amerikanisch</p>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="me-1">Ab 16:00</p>
+                                    <p class="me-1">1,99€</p>
+                                    <p class="me-1">Min. 15,00€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant-card mb-3">
+                        <div class="d-flex">
+                            <img class="restaurant-card-image" src="Ressources/Images/imperial-imbis.png" />
+                            <div>
+                                <h4>Imperial Imbiss</h4>
+                                <div class="d-flex">
+                                    <p class="me-1">4,5 (200+)</p>
+                                    <p class="me-1">Döner</p>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="me-1">Ab 11:00</p>
+                                    <p class="me-1">1,99€</p>
+                                    <p class="me-1">Min. 15,00€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant-card mb-3">
+                        <div class="d-flex">
+                            <img class="restaurant-card-image" src="Ressources/Images/Los_Pollos.png" />
+                            <div>
+                                <h4>Los Polos Hermanos</h4>
+                                <div class="d-flex">
+                                    <p class="me-1">4,5 (200+)</p>
+                                    <p class="me-1">Burger, Amerikanisch</p>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="me-1">Ab 16:00</p>
+                                    <p class="me-1">1,99€</p>
+                                    <p class="me-1">Min. 15,00€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant-card mb-3">
+                        <div class="d-flex">
+                            <img class="restaurant-card-image" src="Ressources/Images/Los_Pollos.png" />
+                            <div>
+                                <h4>Los Polos Hermanos</h4>
+                                <div class="d-flex">
+                                    <p class="me-1">4,5 (200+)</p>
+                                    <p class="me-1">Burger, Amerikanisch</p>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="me-1">Ab 16:00</p>
+                                    <p class="me-1">1,99€</p>
+                                    <p class="me-1">Min. 15,00€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant-card mb-3">
+                        <div class="d-flex">
+                            <img class="restaurant-card-image" src="Ressources/Images/Los_Pollos.png" />
+                            <div>
+                                <h4>Los Polos Hermanos</h4>
+                                <div class="d-flex">
+                                    <p class="me-1">4,5 (200+)</p>
+                                    <p class="me-1">Burger, Amerikanisch</p>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="me-1">Ab 16:00</p>
+                                    <p class="me-1">1,99€</p>
+                                    <p class="me-1">Min. 15,00€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <button class="btn btn-primary">Test</button>
+    </div>
+    </div>
+    </div>
 </body>
 
 </html>

@@ -19,3 +19,18 @@
 #cousine-card-container {
     margin-right: 20px;
 }
+
+.restaurant-card {
+    height: 136px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.restaurant-card-image {
+    height: 136px;
+    width: 290px;
+}
+
+#filter-container {
+    width: 320px !important;
+}
