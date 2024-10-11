@@ -52,3 +52,10 @@ body {
 .ci-bicycle {
     src: url(../Ressources/Images/Icons/bicycle.svg);
 }
+
+.form-check-input,
+.form-check-input:active,
+.form-check-input:hover,
+.form-check-input:focus {
+    color: #f36805;
+}

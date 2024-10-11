@@ -10,7 +10,7 @@
 }
 
 #cousine-card-bg {
-    background-color: #000;
+    background-color: #f36805;
     width: 120px;
     height: 70px;
     border-radius: 10px;
@@ -22,15 +22,58 @@
 
 .restaurant-card {
     height: 136px;
-    background-color: aqua;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 20px;
 }
 
 .restaurant-card-image {
+    background-color: #000;
     height: 136px;
     width: 290px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 #filter-container {
     width: 320px !important;
+}
+
+#map-button {
+    height: 48 !important;
+    width: 48 !important;
+}
+
+#restaurant-search-control {
+    height: 56px;
+    width: 366px;
+    border-color: transparent;
+}
+
+#sort-control {
+    height: 48px;
+    width: 224px;
+    border-color: #242e30;
+}
+
+#restaurant-search-control-container {
+    padding-left: 24px;
+    background-color: #fff;
+    border: solid;
+    border-color: #242e30;
+    border-width: 1px;
+}
+
+#flexSwitchCheckDefault {
+    height: 24px;
+    width: 48px;
+}
+
+#cousine-card-image {
+    height: 90px;
+    width: 122px;
+}
+
+h3 {
+    font-size: 25px;
 }
